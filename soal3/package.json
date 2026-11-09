@@ -1,0 +1,12 @@
+{
+  "name": "ctf-challenge-3",
+  "version": "1.0.0",
+  "description": "Burp Match and Replace Challenge",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
