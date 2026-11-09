@@ -1,7 +1,7 @@
 version: '3.8'
 
 services:
-  challenge1:
+  challenge3:
     build: .
     container_name: ctf-challenge-3
     restart: always
