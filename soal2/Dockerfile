@@ -5,7 +5,7 @@ WORKDIR /app
 
 # Copy package files and install dependencies
 COPY package.json ./
-COPY node_modules ./
+COPY node_modules ./node_modules
 
 # Copy the rest of the application code
 COPY server.js ./
