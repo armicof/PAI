@@ -1,0 +1,12 @@
+{
+  "name": "ctf-challenge-1",
+  "version": "1.0.0",
+  "description": "Burp Repeater CTF Challenge",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.22.3"
+  }
+}
