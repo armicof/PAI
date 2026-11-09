@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  challenge2:
+    build:
+    container_name: ctf-challenge-2
+    restart: always
+    ports:
+      - "3001:3001"
+    environtment:
+      - NODE_ENV=production
