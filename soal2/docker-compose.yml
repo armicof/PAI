@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   challenge2:
-    build:
+    build: .
     container_name: ctf-challenge-2
     restart: always
     ports:
