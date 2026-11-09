@@ -66,4 +66,4 @@ app.get('/vote', (req, res) => {
     res.redirect('/');
 });
 
-app.listen(58731);
+app.listen(3000);
